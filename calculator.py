@@ -1,9 +1,9 @@
 # Simple Calculator
 
 
-num1 = float(input("Enter first number: "))
+num1 = int(input("Enter first number: "))
 operator = input("Enter operator (+, -, *, /, %): ")
-num2 = float(input("Enter second number: "))
+num2 = int(input("Enter second number: "))
 
 # Step 2: Compare operator and perform operation
 if operator == "+":
